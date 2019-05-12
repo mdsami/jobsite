@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/*****
+	*******
+		*********
+
+		  * Prject Author : Iqbal Ahmed Tuhin;
+		  * Version : 1.0.0;
+		  * Email : Jniqbal1@gmail.com;
+		  * Position : Web Developer And Programmer;
+
+		*********
+	*******
+******/
+/*==============>**** Base Css Start *****<=============*/
+body{
+	font-family: 'Raleway', sans-serif;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+hr{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*==============>**** Base Css End *****<=============*/
+
+/*==============>**** Common Css Start  *****<=============*/
+.custom-btn button{
+	border-radius: 1.25rem;
+	padding: 5px 25px;
+}
+.color-1{
+	border:1px solid #dc3545 !important;
+	color: #dc3545 !important;
+}
+.color-2{
+	border:1px solid #17a2b8 !important;
+	color: #17a2b8 !important;
+}
+.color-3{
+	border:1px solid #ffc107 !important;
+	color:#ffc107 !important;
+}
+.color-4{
+	border:1px solid #28a745 !important;
+	color: #28a745 !important;
+}
+.color-4{
+	border:1px solid #6c757d !important;
+	color: #6c757d !important;
+}
+.nav-icon{
+	padding: 0px 5px;
+}
+.btn-outline-white {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-white:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+.pt-70{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.pb-70{
+	padding-top: 70px;
+}
+.pt-100{
+	padding-top: 100px;
+}
+.pb-100{
+	padding-bottom:100px;
+}
+.p-100{
+	padding:100px 0px;
+}
+.lavel{
+	border: 2px solid #ececec;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    bottom: -10px;
+}
+/*==============>**** Common Css End  *****<=============*/
+/*==============>**** Header Css Start  *****<=============*/
+header{
+	background-image: url(../../images/banner/header-bg.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header::before{
+	position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 400px;
+    background: #191919;
+    opacity: .8;
+}
+.logo>a>img{
+	height: 30px;
+}
+.nav{
+	display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.banner-content{
+	color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    top: 130px;
+}
+.banner-icon{
+	font-size: 2.5rem;
+	padding: 0px 30px;
+}
+.displayFlex{
+	display: flex !important;
+}
+.main-nav ul{
+	display: none;
+}
+.main-nav ul a{
+	padding: 0px 10px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+/*==============>**** Header Css End  *****<=============*/
+
+/*Section Info Start */
+.isotop-exmp{
+	position: relative;
+}
+.job-opening-isotop{
+	background: #fdfbfb;
+}
+.bg-gray{
+	background: #f8f8f8;
+}
+.info-content{
+	display: flex;
+    flex-wrap: wrap;
+}
+.info-image{
+	    width: 50%;
+}
+.info-image img{
+	width: 100%;
+	position: relative;
+}
+/*.info-image img::before{
+	position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #191919;
+    opacity: .8;
+
+}*/
+.info-text{
+	width: 50%;
+    align-self: center;
+}
+
+/*==============>**** Job Categroy section Start  *****<=============*/
+.job-category ul li a{
+	text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color: #191919;
+    transition: .6s;
+}
+.job-category ul li a:hover{
+	color: forestgreen;
+	padding-left: 20px;
+
+    font-weight: 700;
+	transition: .6s;
+}
+.job-category-icon{
+	padding: 0px 10px;
+}
+.job-category-header-text{
+	float: left;
+	display: inline;
+}
+/*==============>**** Job Category section Start  *****<=============*/
+/*==============>**** Job opening section Start  *****<=============*/
+.job-opening-header-text {
+	position: relative;
+}
+.custom-border::before{
+	content: "";
+    height: 1px;
+    width: 50px;
+    bottom: -30px;
+    position: absolute;
+    background: #ddd;
+    left: 47%;
+}
+
+.job-category h3{
+	padding-right: 16px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: Uppercase;
+}
+
+
+
+/*Card*/
+.card-bottom{
+	display: flex;
+    justify-content: space-between;
+}
+.card:hover{
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.card-link{
+	color: #000;
+	font-weight: 500;
+	font-size: 12px;
+}
+.media-body h5{
+	font-size: 16px;
+}
+.media-body p{
+	font-size: 12px;
+}
+.card-body a{
+	text-decoration: none;
+	color: #000;
+}
+.card-header{
+	font-weight: 700;
+	background-color: #fff;
+}
+
+/*==============>**** Job opening section end  *****<=============*/
+
+/*==============>**** Footer Section Start *****<=============*/
+.flex-footer{
+	display: flex;
+    justify-content: space-between;
+}
+.social-icon{
+	display: flex;
+    align-items: center;
+}
+.social-icon ul{
+	display: flex;
+}
+.social-icon ul li a{
+	margin: 0px 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.copy-right{
+	display: flex;
+    align-items: center;
+}
+/*==============>**** Footer Section End *****<=============*/
+
+
+/*==============>**** Single Job Descriptio Section Start  *****<=============*/
+	.description h3{
+		padding: 10px 0px;
+	}
+	.job-title ul{
+		display: flex;
+	}
+	.job-title ul li{
+		display: flex;
+		padding: 10px 20px 19px 0px;
+	}
+	.title-icon{
+		padding: 0px 10px 0px 0px;
+	}
+	.skill span{
+		padding: 0px 14px 3px 10px;
+	}
+	.responsibilities ul{
+		list-style: circle;
+    	padding-left: 50px;
+	}
+	.responsibilities ul li{
+		line-height: 30px;
+	}
+	.applay-procidure{
+		text-align: center;
+   		background: #eee;
+    	padding: 43px 0px;
+	}
+	.job-summery ul li{
+		line-height: 40px;
+	}
+	.job-summery-icon{
+		padding: 0px 10px 0px 0px;
+	}
+/*==============>**** Single Job Descriptio Section End *****<=============*/
